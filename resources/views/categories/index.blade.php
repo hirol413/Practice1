@@ -12,7 +12,7 @@
         
     </head>
     <body>
-        <h1>Blog Name</h1>
+        <h1>Music Category</h1>
         <div class = 'posts'>
             @foreach ($posts as $post)
             <div class = 'post'>
