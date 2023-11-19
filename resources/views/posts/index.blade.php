@@ -30,6 +30,7 @@
         <div class = 'paginate'>{{ $posts->links()}}</div>
         <a href='/posts/create'>create</a>
         <a href="/categories/{{$post->category->id}}">{{$post->category->name}}</a>
+        <h2>{{Auth::user()->name}}</h2>
     </body>
     <script>
         function deletePost(id){
